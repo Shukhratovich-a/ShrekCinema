@@ -110,6 +110,12 @@ var renderNewMovie = function (evt) {
   );
 
   renderMovies(films, elDashboardList);
+
+  // Clear Input Values
+  elDashboardInputName.value = null;
+  elDashboardInputOverview.value = null;
+  elDashboardInputGenres.value = null;
+  elDashboardInputPoster.value = null;
 };
 
 renderMovies(films, elDashboardList);
