@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>ShrekPlay</title>
+  </head>
+  <body>
+    <!-- DASHBOARD -->
+    <section class="dashboard">
+      <div class="container">
+        <form class="dashboard__form">
+          <input class="dashboard__input" type="text" name="name" placeholder="Name" required />
+          <input
+            class="dashboard__input"
+            type="text"
+            name="overview"
+            placeholder="Overview"
+            required
+          />
+          <input
+            class="dashboard__input"
+            type="text"
+            name="genres"
+            placeholder="Genres: Horror Action"
+            required
+          />
+          <input
+            class="dashboard__input"
+            type="text"
+            name="poster"
+            placeholder="Poster: URL"
+            required
+          />
+
+          <button class="dashboard__button" type="submit">Add new film</button>
+        </form>
+
+        <ul class="dashboard__list"></ul>
+      </div>
+    </section>
+
+    <script src="./js/films.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
