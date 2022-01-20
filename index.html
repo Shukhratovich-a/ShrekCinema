@@ -12,12 +12,20 @@
     <section class="dashboard">
       <div class="container">
         <form class="dashboard__form">
-          <input class="dashboard__input" type="text" name="name" placeholder="Name" required />
+          <input
+            class="dashboard__input"
+            type="text"
+            name="name"
+            placeholder="Name"
+            autocomplete="off"
+            required
+          />
           <input
             class="dashboard__input"
             type="text"
             name="overview"
             placeholder="Overview"
+            autocomplete="off"
             required
           />
           <input
@@ -25,6 +33,7 @@
             type="text"
             name="genres"
             placeholder="Genres: Horror Action"
+            autocomplete="off"
             required
           />
           <input
@@ -32,6 +41,15 @@
             type="text"
             name="poster"
             placeholder="Poster: URL"
+            autocomplete="off"
+            required
+          />
+          <input
+            class="dashboard__input"
+            type="date"
+            name="date"
+            value="2000-02-20"
+            autocomplete="off"
             required
           />
 
